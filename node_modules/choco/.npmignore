@@ -1,0 +1,6 @@
+choco.min.js
+testem.json
+.eslintignore
+.eslintrc
+.travis.yml
+test/

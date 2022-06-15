@@ -1,0 +1,28 @@
+{
+  "name": "choco",
+  "version": "0.2.1",
+  "author": "sasa+1 <sasaplus1@gmail.com>",
+  "description": "convert to Promise from EventEmitter",
+  "main": "./choco.js",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sasaplus1/choco.js.git"
+  },
+  "scripts": {
+    "bower": "bower install",
+    "lint": "eslint .",
+    "minify": "uglifyjs choco.js --comments '@license' -cm -r choco -o ./choco.min.js",
+    "test": "mocha",
+    "testem": "testem",
+    "travis": "testem ci --launch Firefox,PhantomJS"
+  },
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "eslint": "^0.22.1",
+    "mocha": "^2.2.5",
+    "testem": "^0.8.3",
+    "uglify-js": "^2.4.23"
+  }
+}
