@@ -6,8 +6,8 @@ async function fetchMails() {
 
    const config = {
        imap: {
-           user: 'nellitharun444@gmail.com',
-           password: 'lnlevnotiedxwdvd',
+           user: 'mailid',
+           password: 'password',
            host: 'imap.gmail.com',
            port: 993,
            tls: true,
